@@ -6,24 +6,32 @@ body{
 }
 
 
-.navbar-custom{
-background-color: rgb(114,160,193);
-}
-.nav-item{
-color: black;
-}
+
+
 .container{
   background-color: rgba(255,255,255,0.8);
     margin-top: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
-    max-width: 600px;
+    max-width: 620px;
     max-height: auto;
     text-align: center;
 }
 .issue{
-color: red;
-font-weigth: bolder;
+color: rgb(205,0,0);
+font-weight: 900;
 margin-left: 200px;
+}
+.nav-link{
+color: black;
+font-weight: 500;
+font-size: large;
+}
+.navbar-brand{
+font-weight: 900;
+font-size: xx-large;
+}
+h1{
+margin-top: 20px;
 }

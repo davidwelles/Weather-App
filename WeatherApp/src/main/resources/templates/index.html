@@ -25,7 +25,7 @@
   <span class="issue" th:if="${data != null && data.name == 'error'}">
   Invalid zip code. Weather data not found.</span>
 </div>
-<hr>
+
 <!--This is our conditionally rendered weather data -->
 <div th:if="${data != null && data.name != 'error'}">
   <div class="container">
