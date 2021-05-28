@@ -1,0 +1,29 @@
+body{
+
+    background-image: url("/image/weather.jpg");
+   background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.navbar-custom{
+background-color: rgb(114,160,193);
+}
+.nav-item{
+color: black;
+}
+.container{
+  background-color: rgba(255,255,255,0.8);
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    max-width: 600px;
+    max-height: auto;
+    text-align: center;
+}
+.issue{
+color: red;
+font-weigth: bolder;
+margin-left: 200px;
+}
